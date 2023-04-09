@@ -1,0 +1,54 @@
+{
+  "name": "letstalk",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@meilisearch/instant-meilisearch": "^0.10.1",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "algoliasearch": "^4.14.3",
+    "instantsearch.css": "^8.0.0",
+    "meilisearch": "^0.30.0",
+    "os-browserify": "^0.3.0",
+    "path-browserify": "^1.0.1",
+    "process": "^0.11.10",
+    "react": "^18.2.0",
+    "react-app-rewired": "^2.2.1",
+    "react-dom": "^18.2.0",
+    "react-instantsearch-dom": "^6.39.0",
+    "react-instantsearch-hooks": "^6.39.2",
+    "react-instantsearch-hooks-web": "^6.39.2",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "css-loader": "^6.7.3",
+    "dotenv": "^16.0.3",
+    "style-loader": "^3.3.1"
+  }
+}
