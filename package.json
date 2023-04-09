@@ -2,6 +2,7 @@
   "name": "letstalk",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://masandem.github.io/letstalk",
   "dependencies": {
     "@meilisearch/instant-meilisearch": "^0.10.1",
     "@testing-library/jest-dom": "^5.16.5",
@@ -23,6 +24,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-app-rewired start",
     "build": "react-app-rewired build",
     "test": "react-app-rewired test",

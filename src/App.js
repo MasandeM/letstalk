@@ -8,7 +8,6 @@ import { InstantSearch, SearchBox, Hits, Highlight, Configure, Snippet, Paginati
 
 require('dotenv').config()
 
-console.log(process.env.REACT_APP_MEILI_INSTANCE)
 const searchClient = instantMeiliSearch(
   process.env.REACT_APP_MEILI_INSTANCE, process.env.REACT_APP_MEILI_PUBLIC_API_KEY,
   {
@@ -55,8 +54,7 @@ const Hit = ({ hit }) => (
         <Highlight attribute="title" hit={hit} />
         </div>
         <a href={'https://www.youtube.com/watch?v=' + hit.video_id} target="_blank"><img src={'https://img.youtube.com/vi/' + hit.video_id + '/0.jpg'} align="left" alt={hit.title} /></a>
-        
-        
+   
         <fieldset>
           <legend><h3>Summary</h3></legend>       
           <div className="hit-description" class="scroll">
