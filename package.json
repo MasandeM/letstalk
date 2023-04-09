@@ -2,7 +2,7 @@
   "name": "letstalk",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://masandem.github.io/letstalk",
+  "homepage": "https://letstalk.cachefault.com",
   "dependencies": {
     "@meilisearch/instant-meilisearch": "^0.10.1",
     "@testing-library/jest-dom": "^5.16.5",
