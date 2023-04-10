@@ -17,13 +17,14 @@ const searchClient = instantMeiliSearch(
 );
 
 function FilterableTalkTable(){
-    
+
     return(
             <div className="ais-InstantSearch">
+                <title>HTML Elements Reference</title>
                 <h1>Lets Talk!</h1>
                 <h3 class="slogan">A better way to search for security conference talks.</h3>
                 <p >
-                   Security conferences are one of the best sources for keeping up to-date on industry trends. But the sheer number of talks made in any given year, makes it difficult to find those that you might be interested in. 
+                   Security conferences are one of the best sources for keeping up to-date on the industry's trends, but the sheer number of talks made in any given year, makes it difficult to find those that you might be interested in. 
                     <b>Let's Talk</b> aims to solve this through indexing talk titles, summaries and transcripts from my favourite YT channels and making them searchable! 🔎
                 </p>
                 <InstantSearch
